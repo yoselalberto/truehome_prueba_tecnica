@@ -11,6 +11,12 @@
 To create the environment execute the following in the terminal.  
 
 ```
-docker build ...
+docker build -t <image_tag> .
 docker run  ....
 ```  
+
+example:  
+
+````
+docker build -t truehome .
+```
