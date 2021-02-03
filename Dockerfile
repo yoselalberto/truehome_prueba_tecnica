@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:5cb007f03275
+FROM jupyter/datascience-notebook:d113a601dbb8
 
 LABEL maintainer="Alberto Jaimes <yoselerratil@gmail.com>"  
 
