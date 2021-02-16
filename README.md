@@ -4,8 +4,17 @@ Para cada uno de los desafios se uso `Python`, con las librerías de ciencias de
 
 Se uso una imagen ["oficial"](https://hub.docker.com/r/jupyter/datascience-notebook) de jupyter, con librerias para ciencia de datos ya incluidas, no hubo necesidad de añadir más.
 
-## Respuesta
+## Respuestas a los desafíos  
 
+Las respuestás se desarrollan en los notebooks:
+
+* **desafio_aguas_venenosas.ipynb**
+* **desafio_el_seductor_canto_de_las_sirenas.ipynb**
+* **desafio_para_hacerla_de_jamon.ipynb**
+
+### Datos
+
+La información se coloco en el folder `datasets`, las respuestas también están ahí, tienen un sufijo `con_predicciones`, o es `urgente_orden_de_cierre.csv`.  
 
 
 ## Uso
