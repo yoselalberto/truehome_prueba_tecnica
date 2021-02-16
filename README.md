@@ -18,11 +18,14 @@ docker run --rm -p <external_port>:8888 -e JUPYTER_ENABLE_LAB=yes --name <contai
 ```  
 por ejemplo:  
 
-````
+```
 docker build -t truehome .
 docker run --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes --name truehome_prueba_tecnica -v "$PWD":/home/jovyan/work truehome
-```
+```  
+Entra al contenedor con `docker exec -it <container_name> /bin/bash` y executa `jupyter notebook lists` para imprimir en pantalla el token secreto es la porción después de `token=`, hasta antes del espacio en blanco.  
 
+Finalmente, visitando `<hostname>:<external_port>/token=<token_secreto>` en un navegador se accede a `JupyterLab`, de donde se pueden acceder a los notebooks.
 
+El directorio de trabajo actual está montado como `/home/jovyan/work`.
 
 ## Notas
