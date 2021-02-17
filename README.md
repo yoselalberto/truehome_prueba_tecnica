@@ -1,6 +1,6 @@
 # Prueba técnica para TrueHome
 
-Para cada uno de los desafios se uso `Python`, con las librerías de ciencias de datos, e.g. `scikit-learn`, con `Jupyter` para el desarrollo del análisi. De manera directa se pueden convertir en un `script`, o crear `Pipelines` de `scikit-learn`, o con un esfuerzo extra en una `aplicación` de `Python`.  
+Para cada uno de los desafios se uso `Python`, con las librerías de ciencias de datos, e.g. `scikit-learn`, con `Jupyter` para el desarrollo del análisis. De manera directa se pueden convertir en `scripts`, o crear `Pipelines` de `scikit-learn`, o con un esfuerzo extra en una `aplicación` de `Python`.  
 
 Se uso una imagen ["oficial"](https://hub.docker.com/r/jupyter/datascience-notebook) de jupyter, con librerias para ciencia de datos ya incluidas, no hubo necesidad de añadir más.
 
@@ -14,7 +14,7 @@ Las respuestás se desarrollan en los notebooks:
 
 ### Datos
 
-La información se coloco en el folder `datasets`, las respuestas también están ahí, tienen un sufijo `con_predicciones`.  
+Se colocó en el folder `datasets`.  
 
 
 ## Uso
