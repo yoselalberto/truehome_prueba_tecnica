@@ -1,6 +1,6 @@
 # Prueba técnica para TrueHome
 
-Para cada uno de los desafios se uso `Python`, con las librerías de ciencias de datos, e.g. `scikit-learn`, con `Jupyter` para el desarrollo del análisis. 
+Para cada uno de los desafios se uso `Python`, con las librerías de ciencias de datos, e.g. `scikit-learn`, con `Jupyter` para el desarrollo del análisi; de manera directa se puede convertir en un `script`, o crear `Pipelines` de `scikit-learn`, o en una `aplicación`. 
 
 Se uso una imagen ["oficial"](https://hub.docker.com/r/jupyter/datascience-notebook) de jupyter, con librerias para ciencia de datos ya incluidas, no hubo necesidad de añadir más.
 
