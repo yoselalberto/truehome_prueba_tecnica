@@ -1,6 +1,6 @@
 # Prueba técnica para TrueHome
 
-Para cada uno de los desafios se uso `Python`, con las librerías de ciencias de datos, e.g. `scikit-learn`, con `Jupyter` para el desarrollo del análisi; de manera directa se puede convertir en un `script`, o crear `Pipelines` de `scikit-learn`, o en una `aplicación`. 
+Para cada uno de los desafios se uso `Python`, con las librerías de ciencias de datos, e.g. `scikit-learn`, con `Jupyter` para el desarrollo del análisi. De manera directa se pueden convertir en un `script`, o crear `Pipelines` de `scikit-learn`, o con un esfuerzo extra en una `aplicación` de `Python`.  
 
 Se uso una imagen ["oficial"](https://hub.docker.com/r/jupyter/datascience-notebook) de jupyter, con librerias para ciencia de datos ya incluidas, no hubo necesidad de añadir más.
 
@@ -8,13 +8,13 @@ Se uso una imagen ["oficial"](https://hub.docker.com/r/jupyter/datascience-noteb
 
 Las respuestás se desarrollan en los notebooks:
 
-* **desafio_aguas_venenosas.ipynb**
-* **desafio_el_seductor_canto_de_las_sirenas.ipynb**
-* **desafio_para_hacerla_de_jamon.ipynb**
+* **desafio_aguas_venenosas.ipynb**, las predicciones están en `datasets/urgente_orden_de_cierre.csv`.
+* **desafio_el_seductor_canto_de_las_sirenas.ipynb**, las predicciones están en `datasets/sirenas_endemicas_y_sirenas_migrantes_con_predicciones.csv`.
+* **desafio_para_hacerla_de_jamon.ipynb**, las predicciones están en `datasets/jamones_por_calificar_con_predicciones.csv`.
 
 ### Datos
 
-La información se coloco en el folder `datasets`, las respuestas también están ahí, tienen un sufijo `con_predicciones`, o es `urgente_orden_de_cierre.csv`.  
+La información se coloco en el folder `datasets`, las respuestas también están ahí, tienen un sufijo `con_predicciones`.  
 
 
 ## Uso
